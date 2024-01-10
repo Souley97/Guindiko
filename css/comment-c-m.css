@@ -28,6 +28,7 @@
     --btn-bg-corail: #E98880;
 
     /*FONT FAMILY*/
+    --font-paragraphe: "Inter-Bold", Helvetica;
 
     --font-primary: Inter;
 
@@ -164,7 +165,7 @@ section {
     justify-content: center;
     top: 0;
     left: 0;
-    background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../../images/Comment-c-m/Rectangle\ 148.png);
+    background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../images/Comment-c-m/Rectangle\ 148.png);
     /* background-color: #0f0f0fbf; */
 }
 
@@ -183,3 +184,486 @@ section {
 }
 
 /* FIN BANNIER */
+
+/*  MENTOR */
+.mentor {
+    position: relative;
+
+
+
+}
+
+.mentor .contener {
+    width: 100%;
+    height: 477px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    /* background-color: #0f0f0fbf; */
+}
+
+.mentor .contener .titre {
+    position: relative;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--color-bleu);
+    font-size: 40px;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.mentor .contener .description-titre {
+    position: relative;
+    color: var(--coler-black);
+    font-family: "Inter", Helvetica;
+    line-height: normal;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 17px 0;
+    letter-spacing: 3px;
+
+    
+
+}
+
+.mentor .box {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 23px 20px;
+    margin: 12px 0;
+}
+
+.mentor .box .blog {
+    position: relative;
+    width: 300px;
+    height: 352px;
+    top: 0;
+    left: 10% ;
+    right: 10% ;
+    background-color: #ffffff;
+    border-radius: 15px 0px 15px 0px;
+    border: 3px solid;
+    border-color: #000000;
+    margin: 17px 0;
+
+
+
+}
+.mentor .box .blog .image {
+    position: relative;
+    width: 100;
+    top: 18px;
+    left: 0;
+  
+
+}
+
+.mentor .box .text {
+    position: relative;
+    width: 240px;
+    top: 39px;
+    left: 35px;
+    right: 25px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    justify-content: center;
+
+
+}
+
+
+/* FIN MENTOR */
+
+/*  PROCESSSUS */
+
+.processus {
+    position: relative;
+    margin-top:60vh;
+}
+
+
+.processus .contener {
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: #e988801a;
+    padding:90px 0;
+
+}
+
+.processus .contener .titre {
+    position: relative;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--coler-black);
+    font-size: 40px;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.processus .contener .description-titre {
+    position: relative;
+    color: var(--coler-black);
+    font-family: var(--font-paragraphe);
+    line-height: normal;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 3001;
+    line-height: normal;
+    padding: 23px 0 93px;
+    letter-spacing: 3px;
+
+    
+
+}
+
+.processus .overlap-wrapper {
+    position: relative;
+    width: 100%;
+    height: 21em;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.processus .overlap-6 {
+    position: relative;
+    height: 323px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.processus .overlap-6  .flex {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22%;
+
+}
+.processus .overlap-6  .flex-text {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    bottom:  37vh;
+
+
+}
+
+.processus .text-1{
+    position: absolute;
+    top: 360px;
+    left: 130px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.processus .text-2 {
+    position: absolute;
+    top: 360px;
+    left: 569px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.processus .text-3 {
+    position: absolute;
+    top: 360px;
+    left: 1011px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+}
+
+
+.processus .numb-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.processus .numb-3 {
+    top: 0;
+    left: 448px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.processus .numb-2 {
+    top: 0;
+    left: 933px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.processus .line {
+    position: absolute;
+    width: 386px;
+    height: 6px;
+    top: 14px;
+    left: 29px;
+    object-fit: cover;
+}
+
+.processus .line-2 {
+    position: absolute;
+    width: 386px;
+    height: 6px;
+    top: 14px;
+    left: 514px;
+    object-fit: cover;
+}
+
+.processus .line-3 {
+    position: absolute;
+    width: 386px;
+    height: 6px;
+    top: 308px;
+    left: 514px;
+    object-fit: cover;
+}
+
+
+.processus .line-4 {
+    position: absolute;
+    width: 6px;
+    height: 157px;
+    top: 164px;
+    left: 940px;
+    object-fit: cover;
+}
+
+/* FIN MENTOR */
+
+
+.programme .text-wrapper-20 {
+    position: absolute;
+    top: 2648px;
+    left: 451px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.programme .text-wrapper-21 {
+    position: absolute;
+    top: 2882px;
+    left: 250px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.programme .text-wrapper-22 {
+    position: absolute;
+    top: 2882px;
+    left: 885px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.programme .vous-engager-avec {
+    position: absolute;
+    width: 1006px;
+    top: 2730px;
+    left: 217px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.programme .text-wrapper-23 {
+    position: absolute;
+    width: 489px;
+    top: 3344px;
+    left: 172px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.programme .text-wrapper-24 {
+    position: absolute;
+    width: 409px;
+    top: 3344px;
+    left: 811px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.programme .rectangle-wrapper {
+    position: absolute;
+    width: 480px;
+    height: 362px;
+    top: 2950px;
+    left: 172px;
+    background-color: var(--bg-color-bordeaux);
+    border-radius: 15px;
+}
+
+.programme .rectangle-4 {
+    position: absolute;
+    width: 432px;
+    height: 312px;
+    top: 25px;
+    left: 24px;
+    object-fit: cover;
+}
+
+.programme .img-wrapper {
+    position: absolute;
+    width: 480px;
+    height: 362px;
+    top: 2950px;
+    left: 788px;
+    background-color: #6c131d;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.programme .rectangle-5 {
+    position: absolute;
+    width: 432px;
+    height: 312px;
+    top: 24px;
+    left: 23px;
+    object-fit: cover;
+}
+
+.programme .overlap-7 {
+    position: absolute;
+    width: 299px;
+    height: 68px;
+    top: 3449px;
+    left: 254px;
+    background-color:var(--btn-bg-corail);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000033;
+}
+
+.programme .text-wrapper-25 {
+    position: absolute;
+    width: 139px;
+    top: 15px;
+    left: 80px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.programme .overlap-8 {
+    position: absolute;
+    width: 299px;
+    height: 68px;
+    top: 3449px;
+    left: 878px;
+    background-color:var(--btn-bg-corail);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000033;
+}
+
+.programme .text-wrapper-26 {
+    position: absolute;
+    width: 228px;
+    top: 15px;
+    left: 36px;
+    font-family: var(--font-paragraphe);
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}

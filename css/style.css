@@ -21,7 +21,12 @@
 
 body{
     margin: 0;
+    font-family: var(--font-primary);
+    overflow-x: hidden;
 }
+
+/* SECTION BANNIERE */
+
 .banniere{
     display: block;
     overflow-y: hidden;
@@ -43,8 +48,8 @@ body{
     height: 174px;
     margin: 0;
 }
-.button{
-    padding: 10px 89px 10px 88px;
+.banniere .button{
+    padding: 4px 4px 4px 4px;
     margin-top: -1000px;
     background-color: var(--btn-bg-corail);
     border: none;
@@ -52,4 +57,89 @@ body{
     height: 68px;
     color: var(--nav-bg-color);
     font-size: 17px;
+}
+
+/* SECTION SERVICES */
+
+.nosservices{
+    width: 1440px;
+    height: 6489px;
+    margin-top: 63px;
+    margin-left: 220px;
+    /* margin-right: 10px; */
+}
+
+.nosservices h1{
+    /* width: 257px; */
+    height: 48px;
+    font-size: 40px;
+    color: var(--color-bleu);
+    margin-left: 494px;
+    margin-right: 589px;
+}
+.nosservices .paragraphe{
+    width: 70%;
+    margin-left: 66px;
+    margin-right: 181px;
+    font-size: 22px;
+}
+
+.nosservices hr{
+    margin-left: 530px;
+    margin-right: 589px;
+    width: 10%;
+    height: 2px;
+    background-color:var(--color-black);
+}
+
+.nosservices img:first-child{
+    margin-left: -70px;
+    margin-top: 230px;
+}
+
+.nosservices .icone2{
+    /* margin-left: -70px; */
+    margin-left: 1130px;
+    margin-top:-40px;
+}
+
+.nosservices .button{
+    padding: 10px 350px 10px 300px;
+    margin-top: 10px;
+    margin-left: -5vh;
+    /* margin-right: 1589px; */
+    background-color: var(--btn-bg-corail);
+    border: none;
+    width: 370px;
+    height: 68px;
+    color: var(--nav-bg-color);
+    font-size: 17px;
+}
+
+.nosservices .image{
+    background-image: url("../images/accueil/nosservices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 67px;
+    /* margin-left: 20%;
+    margin-right: 10px; */
+    width: 1122px;
+    height: 497px;
+
+
+}
+
+.nosservices .les_services{
+    background-color: var(--bg-color-blue-clair);
+    text-align: center;
+    overflow: hidden;   
+    /* margin-left: -15px; */
+    margin-right: 70px;
+    width: 1122px;
+    padding-bottom: 10px;
+}
+
+.nosservices .paragraphe_section{
+    margin-top: 53px;
+    font-size: 20px;
 }

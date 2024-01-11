@@ -393,3 +393,53 @@ var .header {
     font-weight: 700;
     font-size: 30px;  
 }
+
+
+.abonnement{
+    text-align: center;
+    color: var(--color-black);
+    margin-top:44px ;
+}
+.abonnement h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 14px;
+    margin-bottom: 28px;
+    margin-top: 19px;
+
+}
+
+.abonnement input{
+    margin-top: 15px;
+    width: 743px;
+    height: 62px;
+    background-color:rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 7px;
+}
+
+.abonnement input::placeholder{
+    padding-left: 20px;
+    color: var(--color-black);
+}
+
+.notre{
+    text-transform: lowercase;
+
+}
+.abonnement button{
+    padding: 8px 4px 8px 4px; 
+    margin-top: 7px;
+    margin-left: 0px;
+    margin-bottom: 40px; 
+    background-color: var(--bg-color-bordeaux);
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 62px;
+    color: var(--color-white);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}

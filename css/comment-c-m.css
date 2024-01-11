@@ -1,14 +1,4 @@
-.header .contact {
-    padding: px;
-    width: 61px;
-    position: absolute;
-    background-color: #80b0df;
-    border-radius: 5px;
-    height: 42px;
-    align-items: center;
-    justify-content: center;
 
-}
 
 /**-- S O U L E Y M A N E --*/
 
@@ -44,7 +34,14 @@
 
 body {
     padding: 0;
-    background: (--nav-bg-color);
+}
+section {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 59px 0;
 }
 
 .header {
@@ -118,12 +115,8 @@ body {
     margin-left: 89px;
     font-size: 20px;
 
-
-
-
-
-
 }
+
 
 .header .contact span {
     width: 61px;
@@ -141,14 +134,7 @@ body {
 
 /* FIN HEADER */
 
-section {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: 59px 0;
-}
+
 
 /*  BANNIER */
 
@@ -165,7 +151,7 @@ section {
     justify-content: center;
     top: 0;
     left: 0;
-    background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../../images/Comment-c-m/Rectangle\ 148.png);
+    background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../images/Comment-c-m/Rectangle148.png);
     /* background-color: #0f0f0fbf; */
 }
 
@@ -263,7 +249,6 @@ section {
 }
 .mentor .box .blog .image {
     position: relative;
-    width: 100;
     top: 18px;
     left: 0;
   
@@ -338,7 +323,7 @@ section {
     text-align: center;
     font-size: 30px;
     font-style: normal;
-    font-weight: 3001;
+    font-weight: 300;
     line-height: normal;
     padding: 23px 0 93px;
     letter-spacing: 3px;

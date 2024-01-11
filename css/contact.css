@@ -156,3 +156,240 @@ var .header {
     top: 50%;
     bottom: 50%;
   }
+
+
+/* contact */
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 1581px;
+    background: #EBEDEC;
+}
+
+.contacts .contactez-nous h1 {
+    padding-left: 88px;
+    padding-top: 136px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.contacts .info {
+    width: 520px;
+    height: 69px;
+    flex-shrink: 0;
+    padding-left: 82px;
+    padding-top: 183px;
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contacts .réseau-social {
+    width: 310px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 122px;
+    padding-top: 24px;
+}
+
+.contacts .adresse .svg-adresse {
+    width: 122px;
+    height: 36px;
+    padding-left: 130px;
+    padding-top: 83px;
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+}
+
+.contacts .adresse h3 {
+    /* width: 122px;
+    height: 36px;
+    padding-left: 130px;
+    padding-top: 83px; */
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 300px;
+}
+
+.contacts .adresse span {
+
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: var(--btn-bg-corail);
+    flex-shrink: 0;
+}
+
+.contacts .habitation p {
+    padding-left: 130px;
+    padding-top: 13px;
+    width: 140px;
+    height: 86px;
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contacts .informations-pratiques h3 {
+    width: 335px;
+    height: 36px;
+    padding-left: 130px;
+    padding-top: 72px;
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.contacts .informations-pratiques svg {
+    padding-left: 83px;
+    padding-top: 183px;
+    padding-right: 17px;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.contacts .mail {
+    display: flex;
+    width: 214px;
+    height: 24px;
+    padding: 23px 162px;
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contacts .mail svg {
+
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+
+}
+
+.contacts .tel {
+    display: flex;
+    width: 420px;
+    height: 24px;
+    padding: 23px 162px;
+
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contacts .tel svg {
+
+    width: 50.005px;
+    height: 50.005px;
+    flex-shrink: 0;
+
+}
+
+.contacts .tel p {
+    padding: 15px;
+    width: 303px;
+
+}
+
+.contacts .mail p {
+    padding: 15px;
+    width: 303px;
+
+}
+
+.contacts .form {
+    width: 786px;
+    height: 994px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 91px;
+    margin-top: 275px;
+}
+
+.contacts .form .bloc {
+
+
+    display: block;
+}
+
+.contacts   label {
+    font-size: 22px;
+    margin: 63px 0;
+
+    
+
+}
+
+.contacts   input {
+
+    width: 563px;
+    height: 74px;
+    background: #EBEDEC;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    margin: 23px 0;
+
+}
+
+
+.contacts   textarea {
+
+    width: 563px;
+    height: 350px;
+    background: #EBEDEC;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    margin: 23px 0;
+
+}
+
+.contacts   .btn input{
+
+ color:white;
+    background: var(--btn-bg-corail);
+    font-weight: 700;
+    font-size: 30px;  
+}

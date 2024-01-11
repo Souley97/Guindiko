@@ -64,7 +64,7 @@ var .header {
 }
   
 .header .navbar a {
-    font-family: "Inter-Bold", Helvetica;
+    font-family: var(--font-primary);
     color: #000000;
     font-size: 20px;
     letter-spacing: 0;
@@ -115,7 +115,7 @@ var .header {
 
 .banière .contener .titre {
     position: relative;
-    font-family: "Inter-Bold", Helvetica;
+    font-family: var(--font-primary);
     font-weight: 700;
     color: var(--color-white);
     font-size: 40px;
@@ -140,7 +140,7 @@ var .header {
 .mentorat .contener h1{
     position: relative;
     color: #65B1E2;
-    font-family: "Inter-Bold", Helvetica;
+    font-family: var(--font-primary);
     font-size: 27px;
     font-style: normal;
     font-weight: 700;
@@ -152,7 +152,7 @@ var .header {
 }
 .mentorat .contener p{
     color: #000;
-    font-family: "Inter-Bold", Helvetica;
+    font-family: var(--font-primary);
     font-size: 25px;
     font-style: normal;
     font-weight: 300;
@@ -197,7 +197,7 @@ var .header {
   }
 .mentorat .contener_mentorat .texte {
     color: #000;
-    font-family: "Inter-Bold", Helvetica;
+    font-family: var(--font-primary);
     font-size: 18px;
     font-style: normal;
     line-height: normal;
@@ -206,6 +206,98 @@ var .header {
 }
 
 /*------------------------------------------------------------*/
+
+/*Section mentorés*/
+
+.mentores{
+    position: relative;
+    padding-bottom: 170px;
+}
+.mentores .contener{
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.mentores .contener h1{
+    position: relative;
+    color: #65B1E2;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:1%;
+    text-transform: uppercase;
+}
+.mentores .contener p{
+    color: #000;
+    font-family:var();
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.mentores .contener_mentores{
+    width: 1440px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.mentores .contener_mentores .contener_article {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+  }
+  
+.mentores .contener_mentores  .contener_article  img{
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+  }
+  .mentores .contener_mentores  .contener_article .icon_aide{
+   margin-top: 18px; 
+  }
+  .mentores .contener_mentores  .contener_article .icon_resourc{
+    margin-top: 14px;
+    padding-left: 4px;
+  }
+  .mentores .contener_mentores  .contener_article .icon_evapro{
+    margin-bottom: 15px;
+  }
+.mentores .contener_mentores .contener_article .article{
+    padding-top: 90px;
+} 
+.mentores .contener_mentores .contener_article .article .titre_article {
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    height: 24px;
+}
+.mentores .contener_mentores .contener_article .article .description_article{
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    width: 397px;
+}
+/*--------------------------------------------*/
 section{
     margin:    47px 0;
 }

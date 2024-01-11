@@ -290,7 +290,12 @@ section {
 
 
 /* FIN MENTOR */
+.description-titre {
+    position: relative;
+    font-weight: 300;
+    
 
+}
 /*  PROCESSSUS */
 
 .processus {
@@ -499,4 +504,169 @@ section {
 /* FIN MENTOR */
 
 
+/*  PROGRAMME */
 
+.programme {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.programme .contener {
+    width: 85%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding:10px 20px;
+    margin: 0 4%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.programme .contener .titre {
+    position: relative;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--coler-black);
+    font-size: 35px;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.programme .contener .description-titre {
+    position: relative;
+    color: var(--coler-black);
+    font-family: "Inter-Light", Helvetica;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 320;
+    letter-spacing: .5px;
+    padding: 30px 265px;
+    
+
+}
+
+
+
+/* Blog */
+
+
+
+.programme .blog {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2 , 40%);
+    gap: 120px;
+    margin-left: 5%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 0;
+
+    
+
+}
+.programme .blog .title {
+    position: relative;
+    width: 450px;
+    left: 0;
+    object-fit: cover;
+    margin:  35px ;
+
+    
+
+}
+
+.programme .blog  img{
+    position: relative;
+    width: 462px;
+    height: 312px;
+    padding: 25px 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.programme .blog  .border-img{
+    position: relative;
+    width: 510px;
+    height: 362px;
+    top: 0;
+    left: 0;
+    background-color: #6c131d;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+    justify-content: center;
+
+    
+
+}
+
+.programme .blog  .text{
+    width: 469px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 310;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 35px ;
+
+}
+.programme .blog  .btn{
+
+    width: 299px;
+    top: 0;
+    left: 0;
+    background-color: #e98880;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000033;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    margin-left: 89px;
+
+
+}
+.programme .blog  .btn-2{
+
+  
+    padding: 12px;
+    margin-top: 22px;
+
+
+}
+
+
+.programme .blog  .btn-valide{
+    width: 8px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  
+
+}

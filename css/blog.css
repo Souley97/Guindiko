@@ -30,7 +30,7 @@
 
 body {
     padding: 0;
-    background: (--nav-bg-color);
+    
     margin: 0;
 
 
@@ -155,7 +155,7 @@ var .header {
     font-family: "Inter-Bold", Helvetica;
     text-align: center;
     font-size: 3em;
-    font-weight: 700px;
+    font-weight: 700;
     position: absolute;
     top: 50%;
     left: 50%;

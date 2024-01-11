@@ -29,6 +29,7 @@
       padding: 0;
       background: (--nav-bg-color);
       overflow-x: hidden;
+      font-family: var(--font-primary);
   }
 
   section{
@@ -430,6 +431,8 @@
     margin-left: 258px;
     margin-right: 258px;
     font-size: 25px;
+    font-weight: 300;
+    font-family: var(--font-primary);
     padding-top: 63px;
     margin-bottom: -70px;
 }
@@ -448,6 +451,146 @@
     font-size: 17px;
     /* margin-bottom: 108px; */
 }
+
+/* BLOG D'ARTICLES */
+
+.blog_article{
+    padding-bottom: 100px;
+}
+
+.blog_article h1{
+    color: var(--color-bleu);
+    padding-top: 54px;
+    padding-left: 674px;
+    padding-right: 168px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.blog_article hr{
+    width: 13.5%;
+    height: 2px;
+    background-color:var(--color-black);
+    margin-left: 690px;
+    margin-right: 168px;
+}
+
+.blog_article .titres{
+    display: flex;
+    margin-left: 136px;
+    margin-right: 143px;
+}
+
+.blog_article .titres p{
+    border: var(--btn-bg-corail) 1px solid ;
+    padding: 15px 114px 15px 113px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-right: 19px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog_article .titres p:first-child{
+    background-color: var(--btn-bg-corail);
+    color: var(--color-white);
+    font-weight: 700;
+
+}
+
+.informations .partie1,.informations .partie2{
+    display: flex; 
+    /* grid-template-columns: 22% 22% 22% 22%; */
+    /* margin-top: 60px;
+    padding-left: 200px;
+    padding-right: 20px;    */
+}
+
+.informations .h1{
+    font-weight: bold;
+    padding: 59px 98px 5px 100px;
+    color: var(--color-white);
+}
+
+.informations .metier{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)), url(../images/accueil/metiers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.informations .Formation{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)), url(../images/accueil/formations.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+
+}
+.informations .Emploi{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)), url("../images/accueil/emploi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.informations .Opportunites{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)), url("../images/accueil/opportinute.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.informations .Chomage{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)), url("../images/accueil/chomage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.informations .Branding{
+    background-image:  linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)),url("../images/accueil/branding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.informations .Insertion{
+    background-image:  linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)),url("../images/accueil/insertion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.informations .Reconversion{
+    background-image:  linear-gradient(rgba(15, 15, 15, 0.50),rgba(15, 15, 15, 0.50)),url("../images/accueil/reconversion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.informations p{
+    text-align: center;
+    color: var(--color-white);
+    width: 227px;
+    height: 48px;
+    padding: 0 30px 81px 62px;
+    font-size: 20px;
+    
+}
+.partie1 div,.partie2 div {
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 351px;
+    height: 247px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+.Branding .paragraphe_branding{
+    width: 250px;
+}
+
+#opportunites{
+    padding-left: 2px;
+
+}
+
+
+
 
 /* FOOTER */
 footer{

@@ -27,7 +27,7 @@
   
   body {
       padding: 0;
-      background: (--nav-bg-color);
+      background: var(--nav-bg-color);
       overflow-x: hidden;
       font-family: var(--font-primary);
   }

@@ -151,7 +151,11 @@ section {
     justify-content: center;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../images/Comment-c-m/Rectangle\ 148.png);
+=======
+    background-image: linear-gradient(#0f0f0fbf, #0f0f0fbf), url(../images/Comment-c-m/Rectangle148.png);
+>>>>>>> hotfix/correction-les-page
 
 }
 
@@ -643,6 +647,10 @@ section {
     font-size: 30px;
     letter-spacing: 0;
     line-height: normal;
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+>>>>>>> hotfix/correction-les-page
 }
 
 

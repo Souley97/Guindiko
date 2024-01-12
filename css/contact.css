@@ -14,7 +14,7 @@
 
     /*FONT FAMILY*/
 
-    --font-primary: Inter;
+    --font-primary: "Inter-Bold", Helvetica;
 
 }
 
@@ -134,7 +134,7 @@ var .header {
   .banière .contener {
     width: 100%;
     height: 477px;
-    background-image: linear-gradient(rgba(15,15,15,0.75),rgba(15,15,15,0.75)), url(../images/blog/Rectangle\ 148.jpg);
+    background-image: linear-gradient(rgba(15,15,15,0.75),rgba(15,15,15,0.75)), url(../images/contact.jpg);
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -208,8 +208,13 @@ var .header {
     padding-top: 24px;
 }
 
+.contacts .adresse  {
+    width: 10px;
+    
+}
+
 .contacts .adresse .svg-adresse {
-    width: 122px;
+    width: 522px;
     height: 36px;
     padding-left: 130px;
     padding-top: 83px;
@@ -233,7 +238,8 @@ var .header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 300px;
+    width: 800px;
+    padding:0 4px;
 }
 
 .contacts .adresse span {
@@ -247,8 +253,8 @@ var .header {
 }
 
 .contacts .habitation p {
-    padding-left: 130px;
-    padding-top: 13px;
+    padding-left: 180px;
+    padding-top: 18px;
     width: 140px;
     height: 86px;
     color: #000;
@@ -257,7 +263,9 @@ var .header {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    
 }
+
 
 .contacts .informations-pratiques h3 {
     width: 335px;
@@ -286,7 +294,7 @@ var .header {
     display: flex;
     width: 214px;
     height: 24px;
-    padding: 23px 162px;
+    padding: 53px 162px;
     color: #000;
     font-family: var(--font-primary);
     font-size: 20px;
